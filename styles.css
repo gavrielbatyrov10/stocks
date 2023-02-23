@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 20px;
+    background-color: #cafdff;
+  
+}
+
+.nav__logo {
+padding-top: 16px;
+font-size: 32px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 8px;
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+header {
+    height: calc(100vh - 70px);
+    background-color: #BFDCE5;
+  margin: 0 auto;
+
+    
+}
+.nav__words {
+display: flex;
+justify-content: center;
+color: blue;
+font-size: 32px;
+padding-top: 16px;
+}
+
+.header__text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header__img {
+    width: 600px;
+    border-radius: 16px;
+    padding-top: 16px;
+    display: flex;
+}
+
+.img__size {
+    display: flex;
+    justify-content: center;
+margin-top: 36px;
+}
+
+.big__nav--list {
+    display: flex;
+    justify-content: center;
+ margin-top: 64px;
+    
+}
+
+.big__header--links {
+    font-size: 36px;
+    padding: 0 16px;
+}
+
+.header__bottom--para {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+
+/*
+
+about
+
+*/
+
+section {
+    height: 100vh;
+    background-color: #453C67;
+}
+
+.about__title {
+    font-size: 52px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.about__picture {
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}
+
+.text__align {
+    text-align: center;
+}
+
+.about__para {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+.about__picture2 {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.sad__picture {
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+.about__last--text {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
